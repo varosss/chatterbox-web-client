@@ -1,8 +1,8 @@
-# 💬 Chatterbox Client
+# Chatterbox Client
 
 Frontend клиент для распределённого мессенджера **Chatterbox**.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - React + TypeScript
 - Vite
@@ -10,7 +10,7 @@ Frontend клиент для распределённого мессенджер
 - WebSocket (notifications)
 - REST API communication
 
-## 📦 Features
+## Features
 
 - Авторизация (JWT access + refresh token)
 - Список чатов пользователя
@@ -19,7 +19,7 @@ Frontend клиент для распределённого мессенджер
 - Lazy loading сообщений по чатам
 - Кэширование сообщений на клиенте
 
-## 🏗 Architecture
+## Architecture
 
 Frontend общается с 3 сервисами:
 
@@ -27,7 +27,7 @@ Frontend общается с 3 сервисами:
 - Chat Service → чаты и сообщения
 - Notification Service → WebSocket события
 
-## ⚙️ Setup
+## Setup
 
 ```bash
 npm install
