@@ -315,7 +315,7 @@ export default function App() {
               />
               <input
                 className="w-full rounded-xl bg-slate-800 p-3"
-                placeholder="Display Name"
+                placeholder="Full Name"
                 value={displayName}
                 onChange={(e) => setDisplayName(e.target.value)}
               />
